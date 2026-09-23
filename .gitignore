@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+*.db
+.c2_data/
+.system_logs/
+build/
+dist/
+*.spec
+deploy/windows/
+deploy/macos/
+deploy/linux/
+*.log

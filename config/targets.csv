@@ -1,0 +1,6 @@
+url,parameter,method,context
+https://example.com/search,q,GET,HTML_BODY
+https://example.com/login,username,POST,HTML_ATTRIBUTE
+https://example.com/api/data,callback,GET,JAVASCRIPT
+https://shop.example.com/product,id,GET,HTML_BODY
+https://forum.example.com/post,message,POST,HTML_BODY
