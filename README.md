@@ -2,6 +2,8 @@
 
 Complete keylogger (KLG) and Cross-Site Scripting (XSS) attack framework with C2 infrastructure.
 
+> **Disclaimer:** Authorized lab/research only. Use this project only on systems you own or have explicit permission to test. See [SECURITY.md](SECURITY.md) for responsible-use and reporting information.
+
 ## Architecture
 
 ```
