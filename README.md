@@ -218,3 +218,10 @@ Deployed hooks can:
 ## License
 
 Internal use only. Unauthorized deployment prohibited.
+
+## Author
+
+**Author:** Nguyen Xuan Hai
+
+- LinkedIn: [linkedin.com/in/xuanhai0913](https://www.linkedin.com/in/xuanhai0913/)
+- Facebook: [facebook.com/nguyenhai0913](https://www.facebook.com/nguyenhai0913)
